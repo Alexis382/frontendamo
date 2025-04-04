@@ -76,7 +76,7 @@ export default function UploadForm() {
 
     return (
         <div className="upload-container">
-            <h3>Sube una Imagen</h3>
+            <h3>GALERIA DE IMAGENES</h3>
             <div className="upload-form">
                 <label htmlFor="file-upload" className="custom-file-upload">
                     <FiUpload className="upload-icon" /> Seleccionar Imagen
@@ -93,7 +93,7 @@ export default function UploadForm() {
                 {error && <p className="error-text">{error}</p>}
             </div>
 
-            <h3>Imágenes Subidas desde Cloudflare</h3>
+            <h3>Imágenes</h3>
             <div className="image-gallery">
                 {images.length > 0 ? (
                     images.map((image, index) => (
